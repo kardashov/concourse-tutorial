@@ -30,6 +30,7 @@ jobs:
             source:
               repository: ((docker-hub-username))/concourse-tutorial-hello-world
           run:
+
             path: /bin/hello-world
             args: []
           params:
